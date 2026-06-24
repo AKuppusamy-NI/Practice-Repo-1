@@ -1,0 +1,12 @@
+{
+  "name": "practice-repo-1",
+  "version": "1.0.0",
+  "description": "A repository for practicing GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "keywords": ["practice", "github-actions"],
+  "license": "MIT"
+}
