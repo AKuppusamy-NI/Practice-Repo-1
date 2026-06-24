@@ -4,12 +4,17 @@ A repository for practicing GitHub Actions workflows and automation.
 
 ## Contents
 
-- `hello.py` — Simple Python script
+- `hello.py` — Simple Python script with `greet()` and `add()` functions
 - `app.js` — Simple Node.js script
 - `requirements.txt` — Python dependencies
 - `package.json` — Node.js project metadata
 - `data/sample.json` — Sample JSON data file
 - `.github/workflows/ci.yml` — Example CI workflow
+- `python/` — Additional Python practice scripts (calculator, fibonacci, hello)
+- `seq/` — Sample `.seq` files (DNA sample, fibonacci, primes)
+- `LICENSE` — MIT license
+- `CONTRIBUTING.md` — how to contribute
+- `.gitignore` — common ignore rules for Python/Node/editors
 
 ## Getting Started
 
@@ -37,3 +42,7 @@ The `.github/workflows/ci.yml` workflow runs on every push and pull request. It:
 4. Runs both scripts as a smoke test
 
 Feel free to edit the workflow to try out new Actions features!
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -1,7 +1,7 @@
 """A simple Python script to practice with."""
 
 
-def greet(name: str) -> str:
+def greet(name: str = "World") -> str:
     """Return a greeting string."""
     return f"Hello, {name}!"
 
@@ -12,5 +12,5 @@ def add(a: int, b: int) -> int:
 
 
 if __name__ == "__main__":
-    print(greet("World"))
+    print(greet())
     print(f"2 + 3 = {add(2, 3)}")
